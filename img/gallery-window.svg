@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Cantinho aconchegante</title>
+  <desc id="desc">Janela com plantas e poltrona.</desc>
+  <rect width="640" height="480" fill="#fff8ec"/>
+  <rect x="86" y="58" width="238" height="232" rx="20" fill="#a8bfce"/>
+  <path d="M205 58v232M86 174h238" stroke="#fff8ec" stroke-width="16"/>
+  <path d="M388 209c41-52 126-25 132 42l9 103H357l9-102c2-16 9-31 22-43Z" fill="#c47b43"/>
+  <rect x="352" y="329" width="185" height="38" rx="19" fill="#3d2418"/>
+  <path d="M125 349c17-71 92-66 100 0" fill="none" stroke="#8fa378" stroke-width="18" stroke-linecap="round"/>
+  <path d="M174 349c1-58 36-95 91-110" fill="none" stroke="#8fa378" stroke-width="18" stroke-linecap="round"/>
+  <rect x="141" y="349" width="94" height="66" rx="12" fill="#6f4633"/>
+</svg>

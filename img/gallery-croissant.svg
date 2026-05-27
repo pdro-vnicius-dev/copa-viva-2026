@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Fornada do dia</title>
+  <desc id="desc">Croissants em uma bandeja.</desc>
+  <rect width="640" height="480" fill="#f0bf70"/>
+  <rect x="82" y="126" width="476" height="248" rx="34" fill="#fff8ec"/>
+  <g fill="#c47b43">
+    <path d="M139 255c44-75 118-97 199-55 28 15 37 52 16 76-26 28-75 26-113-7-32-28-62-23-93 15-18 23-32-4-9-29Z"/>
+    <path d="M312 263c38-67 107-87 178-48 25 14 33 48 14 69-23 26-67 24-101-6-29-25-56-21-84 14-16 20-28-6-7-29Z"/>
+  </g>
+  <g fill="none" stroke="#8b4d25" stroke-width="9" stroke-linecap="round" opacity=".55">
+    <path d="M202 205c25 18 37 43 37 74"/>
+    <path d="M286 196c9 30 2 57-20 83"/>
+    <path d="M370 222c21 16 31 38 31 65"/>
+    <path d="M443 214c7 26 1 49-18 71"/>
+  </g>
+</svg>

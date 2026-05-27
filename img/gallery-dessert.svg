@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Doce artesanal</title>
+  <desc id="desc">Fatia de doce com frutas.</desc>
+  <rect width="640" height="480" fill="#f7d9ac"/>
+  <ellipse cx="320" cy="346" rx="220" ry="48" fill="#3d2418" opacity=".15"/>
+  <path d="M162 180h320l-44 150H207l-45-150Z" fill="#fff8ec"/>
+  <path d="M174 216h296l-15 51H190l-16-51Z" fill="#c47b43"/>
+  <path d="M153 156h338c18 0 29 18 21 34H133c-7-16 3-34 20-34Z" fill="#3d2418"/>
+  <circle cx="255" cy="145" r="26" fill="#b94a38"/>
+  <circle cx="321" cy="138" r="28" fill="#8fa378"/>
+  <circle cx="388" cy="146" r="25" fill="#b94a38"/>
+  <path d="M225 124c-13-27 3-51 31-54" fill="none" stroke="#8fa378" stroke-width="10" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Mesa de cafeteria</title>
+  <desc id="desc">Mesa com duas xicaras em cafeteria.</desc>
+  <rect width="640" height="480" fill="#fff1d8"/>
+  <rect x="0" y="294" width="640" height="186" fill="#8b4d25"/>
+  <path d="M0 294h640" stroke="#3d2418" stroke-width="10"/>
+  <circle cx="145" cy="128" r="55" fill="#8fa378" opacity=".65"/>
+  <rect x="90" y="180" width="112" height="102" rx="24" fill="#fff8ec"/>
+  <ellipse cx="146" cy="180" rx="56" ry="18" fill="#6f4633"/>
+  <path d="M202 207h30c25 0 36 31 18 48-15 14-40 13-54-3" fill="none" stroke="#fff8ec" stroke-width="17" stroke-linecap="round"/>
+  <rect x="384" y="164" width="120" height="112" rx="28" fill="#fff8ec"/>
+  <ellipse cx="444" cy="164" rx="60" ry="20" fill="#6f4633"/>
+  <path d="M504 196h32c27 0 39 33 19 51-16 16-43 15-58-3" fill="none" stroke="#fff8ec" stroke-width="18" stroke-linecap="round"/>
+</svg>

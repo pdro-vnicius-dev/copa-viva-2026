@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Latte artesanal</title>
+  <desc id="desc">Latte com desenho no leite.</desc>
+  <rect width="640" height="480" fill="#ead0a7"/>
+  <circle cx="515" cy="95" r="90" fill="#c47b43" opacity=".35"/>
+  <ellipse cx="319" cy="260" rx="198" ry="118" fill="#fff8ec"/>
+  <ellipse cx="319" cy="260" rx="150" ry="78" fill="#6f4633"/>
+  <path d="M263 248c32-54 82-54 113 0-31 29-79 29-113 0Z" fill="#f6dfbd"/>
+  <path d="M233 274c51 44 124 44 172 0" fill="none" stroke="#f6dfbd" stroke-width="18" stroke-linecap="round"/>
+  <path d="M508 244h48c39 0 58 48 31 77-23 25-63 24-88-1" fill="none" stroke="#fff8ec" stroke-width="30" stroke-linecap="round"/>
+</svg>

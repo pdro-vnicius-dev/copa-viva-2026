@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aurora Cafe | Cafeteria artesanal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header" id="inicio">
+      <nav class="navbar" aria-label="Navegacao principal">
+        <a class="brand" href="#inicio" aria-label="Aurora Cafe - inicio">
+          <span class="brand-mark">AC</span>
+          <span>Aurora Cafe</span>
+        </a>
+
+        <input class="menu-toggle" type="checkbox" id="menu-toggle" />
+        <label class="menu-button" for="menu-toggle" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <ul class="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#cardapio">Cardapio</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-panel" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">Cafe especial, paes frescos e pausa boa</p>
+          <h1 id="hero-title">Um cantinho acolhedor para saborear o dia com calma.</h1>
+          <p>
+            No Aurora Cafe, cada xicara e preparada com graos selecionados,
+            receitas autorais e um ambiente pensado para encontros, estudos e
+            bons comecos de manha.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#cardapio">Ver cardapio</a>
+            <a class="button secondary" href="#contato">Reservar mesa</a>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Destaque da cafeteria">
+          <img src="img/banner-cafe.svg" alt="Xicara de cafe artesanal com paes e graos" />
+          <div class="opening-hours">
+            <strong>Aberto hoje</strong>
+            <span>08h as 20h</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="highlights" aria-label="Diferenciais da cafeteria">
+        <article>
+          <span>01</span>
+          <h2>Graos selecionados</h2>
+          <p>Torra media, aroma marcante e preparo sob medida para cada bebida.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h2>Receitas artesanais</h2>
+          <p>Bolos, croissants e sanduiches feitos em pequenas fornadas.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h2>Espaco confortavel</h2>
+          <p>Mesas amplas, luz natural e clima tranquilo para ficar mais um pouco.</p>
+        </article>
+      </section>
+
+      <section class="section-panel menu-section" id="cardapio" aria-labelledby="menu-title">
+        <div class="section-heading">
+          <p class="eyebrow">Cardapio</p>
+          <h2 id="menu-title">Favoritos da casa</h2>
+          <p>Combos e bebidas pensados para diferentes momentos do dia.</p>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card">
+            <img src="img/cappuccino.svg" alt="Cappuccino cremoso" />
+            <div>
+              <h3>Cappuccino Aurora</h3>
+              <p>Espresso, leite vaporizado, cacau e toque de canela.</p>
+              <strong>R$ 14,90</strong>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="img/croissant.svg" alt="Croissant artesanal" />
+            <div>
+              <h3>Croissant do Forno</h3>
+              <p>Massa folhada, manteiga, queijo suave e ervas frescas.</p>
+              <strong>R$ 18,00</strong>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="img/brunch.svg" alt="Prato de brunch com cafe" />
+            <div>
+              <h3>Brunch Sereno</h3>
+              <p>Pao de fermentacao natural, frutas, mel e cafe filtrado.</p>
+              <strong>R$ 29,90</strong>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-panel gallery-section" id="galeria" aria-labelledby="gallery-title">
+        <div class="section-heading">
+          <p class="eyebrow">Galeria</p>
+          <h2 id="gallery-title">Momentos que combinam com cafe</h2>
+          <p>As imagens se reorganizam com Flexbox: quatro por linha no desktop, duas no tablet e uma no celular.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure>
+            <img src="img/gallery-latte.svg" alt="Latte com desenho no leite" />
+            <figcaption>Latte artesanal</figcaption>
+          </figure>
+          <figure>
+            <img src="img/gallery-beans.svg" alt="Graos de cafe torrados" />
+            <figcaption>Graos especiais</figcaption>
+          </figure>
+          <figure>
+            <img src="img/gallery-table.svg" alt="Mesa de cafeteria com xicaras" />
+            <figcaption>Encontros tranquilos</figcaption>
+          </figure>
+          <figure>
+            <img src="img/gallery-dessert.svg" alt="Doce artesanal com frutas" />
+            <figcaption>Doces da vitrine</figcaption>
+          </figure>
+          <figure>
+            <img src="img/gallery-barista.svg" alt="Barista preparando cafe filtrado" />
+            <figcaption>Preparo cuidadoso</figcaption>
+          </figure>
+          <figure>
+            <img src="img/gallery-window.svg" alt="Cantinho com janela e plantas" />
+            <figcaption>Cantinho aconchegante</figcaption>
+          </figure>
+          <figure>
+            <img src="img/gallery-croissant.svg" alt="Croissants em bandeja" />
+            <figcaption>Fornada do dia</figcaption>
+          </figure>
+          <figure>
+            <img src="img/gallery-iced.svg" alt="Cafe gelado com gelo" />
+            <figcaption>Cafes gelados</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="about-section" id="sobre" aria-labelledby="about-title">
+        <div class="about-text">
+          <p class="eyebrow">Sobre nos</p>
+          <h2 id="about-title">Cafe com personalidade e atendimento proximo.</h2>
+          <p>
+            A Aurora nasceu para unir cafe de qualidade, comida afetiva e um
+            espaco que convida a desacelerar. Nossa proposta e valorizar
+            produtores locais, ingredientes frescos e experiencias simples,
+            mas memoraveis.
+          </p>
+        </div>
+
+        <div class="about-list">
+          <div>
+            <strong>+12</strong>
+            <span>opcoes no cardapio</span>
+          </div>
+          <div>
+            <strong>100%</strong>
+            <span>graos selecionados</span>
+          </div>
+          <div>
+            <strong>3</strong>
+            <span>ambientes para aproveitar</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-panel contact-section" id="contato" aria-labelledby="contact-title">
+        <div class="section-heading">
+          <p class="eyebrow">Contato</p>
+          <h2 id="contact-title">Venha tomar um cafe com a gente</h2>
+          <p>Rua das Flores, 128 - Centro | Segunda a sabado, das 08h as 20h.</p>
+        </div>
+
+        <div class="contact-cards">
+          <a href="tel:+5511999990000">Telefone: (11) 99999-0000</a>
+          <a href="mailto:contato@auroracafe.com">contato@auroracafe.com</a>
+          <a href="#inicio">Voltar ao topo</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Aurora Cafe. Site desenvolvido com HTML5, CSS3 e Flexbox.</p>
+      <div class="footer-links">
+        <a href="#cardapio">Cardapio</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </footer>
+  </body>
+</html>

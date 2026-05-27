@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 380" role="img" aria-labelledby="title desc">
+  <title id="title">Croissant</title>
+  <desc id="desc">Croissant artesanal dourado.</desc>
+  <rect width="500" height="380" rx="34" fill="#fff1d8"/>
+  <circle cx="95" cy="84" r="62" fill="#8fa378" opacity=".35"/>
+  <path d="M76 250c55-101 163-153 283-120 45 12 75 48 71 86-6 55-82 75-139 39-60-39-121-30-176 24-27 26-57 1-39-29Z" fill="#b76a38"/>
+  <path d="M128 223c34-56 87-83 157-77 35 3 64 20 89 51-56-18-114-15-170 10-32 14-57 31-76 16Z" fill="#e6b66c"/>
+  <path d="M166 173c31 8 54 34 68 79M260 147c18 29 19 62 4 100M339 168c-2 32-18 58-48 80" fill="none" stroke="#8b4d25" stroke-width="11" stroke-linecap="round" opacity=".55"/>
+  <ellipse cx="250" cy="298" rx="170" ry="35" fill="#3d2418" opacity=".12"/>
+</svg>
