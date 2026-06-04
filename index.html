@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aurora Cafe | Cafeteria artesanal</title>
+    <title>Copa Viva 2026 | Site da Copa do Mundo</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="site-header" id="inicio">
-      <nav class="navbar" aria-label="Navegacao principal">
-        <a class="brand" href="#inicio" aria-label="Aurora Cafe - inicio">
-          <span class="brand-mark">AC</span>
-          <span>Aurora Cafe</span>
+      <nav class="navbar" aria-label="Navegação principal">
+        <a class="brand" href="#inicio" aria-label="Copa Viva 2026 - início">
+          <span class="brand-ball" aria-hidden="true"></span>
+          <span>Copa Viva 2026</span>
         </a>
 
         <input class="menu-toggle" type="checkbox" id="menu-toggle" />
@@ -22,187 +22,293 @@
         </label>
 
         <ul class="nav-links">
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#cardapio">Cardapio</a></li>
-          <li><a href="#galeria">Galeria</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <li><a href="#selecoes">Seleções</a></li>
+          <li><a href="#craques">Craques</a></li>
+          <li><a href="#historia">História</a></li>
+          <li><a href="#jogos">Jogos</a></li>
+          <li><a href="#torcida">Torcida</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section class="hero section-panel" aria-labelledby="hero-title">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="img/copa-hero.png"
+          alt="Estádio lotado em clima de Copa do Mundo, com campo iluminado, confetes e troféu dourado"
+        />
+        <div class="hero-overlay"></div>
+
         <div class="hero-content">
-          <p class="eyebrow">Cafe especial, paes frescos e pausa boa</p>
-          <h1 id="hero-title">Um cantinho acolhedor para saborear o dia com calma.</h1>
+          <p class="eyebrow">Canadá, México e Estados Unidos</p>
+          <h1 id="hero-title">Copa do Mundo 2026</h1>
           <p>
-            No Aurora Cafe, cada xicara e preparada com graos selecionados,
-            receitas autorais e um ambiente pensado para encontros, estudos e
-            bons comecos de manha.
+            Uma página especial para celebrar a maior festa do futebol mundial,
+            com seleções, histórias, craques, jogos fictícios e efeitos visuais
+            para uma experiência vibrante.
           </p>
+
           <div class="hero-actions">
-            <a class="button primary" href="#cardapio">Ver cardapio</a>
-            <a class="button secondary" href="#contato">Reservar mesa</a>
+            <a class="button button-primary" href="#jogos">Ver jogos</a>
+            <a class="button button-light" href="#selecoes">Explorar seleções</a>
           </div>
         </div>
 
-        <div class="hero-card" aria-label="Destaque da cafeteria">
-          <img src="img/banner-cafe.svg" alt="Xicara de cafe artesanal com paes e graos" />
-          <div class="opening-hours">
-            <strong>Aberto hoje</strong>
-            <span>08h as 20h</span>
-          </div>
+        <div class="hero-facts" aria-label="Informações da Copa de 2026">
+          <article>
+            <strong>48</strong>
+            <span>seleções</span>
+          </article>
+          <article>
+            <strong>104</strong>
+            <span>partidas</span>
+          </article>
+          <article>
+            <strong>16</strong>
+            <span>cidades-sede</span>
+          </article>
         </div>
+
+        <div class="animated-ball" aria-hidden="true"></div>
       </section>
 
-      <section class="highlights" aria-label="Diferenciais da cafeteria">
+      <section class="tournament-strip" aria-label="Resumo do torneio">
         <article>
-          <span>01</span>
-          <h2>Graos selecionados</h2>
-          <p>Torra media, aroma marcante e preparo sob medida para cada bebida.</p>
+          <span>Início</span>
+          <strong>11 de junho</strong>
         </article>
         <article>
-          <span>02</span>
-          <h2>Receitas artesanais</h2>
-          <p>Bolos, croissants e sanduiches feitos em pequenas fornadas.</p>
+          <span>Final</span>
+          <strong>19 de julho</strong>
         </article>
         <article>
-          <span>03</span>
-          <h2>Espaco confortavel</h2>
-          <p>Mesas amplas, luz natural e clima tranquilo para ficar mais um pouco.</p>
+          <span>Formato</span>
+          <strong>fase de grupos e mata-mata</strong>
+        </article>
+        <article>
+          <span>Clima</span>
+          <strong>estádios, bandeiras e emoção</strong>
         </article>
       </section>
 
-      <section class="section-panel menu-section" id="cardapio" aria-labelledby="menu-title">
+      <section class="section section-teams" id="selecoes" aria-labelledby="teams-title">
         <div class="section-heading">
-          <p class="eyebrow">Cardapio</p>
-          <h2 id="menu-title">Favoritos da casa</h2>
-          <p>Combos e bebidas pensados para diferentes momentos do dia.</p>
-        </div>
-
-        <div class="menu-grid">
-          <article class="menu-card">
-            <img src="img/cappuccino.svg" alt="Cappuccino cremoso" />
-            <div>
-              <h3>Cappuccino Aurora</h3>
-              <p>Espresso, leite vaporizado, cacau e toque de canela.</p>
-              <strong>R$ 14,90</strong>
-            </div>
-          </article>
-
-          <article class="menu-card">
-            <img src="img/croissant.svg" alt="Croissant artesanal" />
-            <div>
-              <h3>Croissant do Forno</h3>
-              <p>Massa folhada, manteiga, queijo suave e ervas frescas.</p>
-              <strong>R$ 18,00</strong>
-            </div>
-          </article>
-
-          <article class="menu-card">
-            <img src="img/brunch.svg" alt="Prato de brunch com cafe" />
-            <div>
-              <h3>Brunch Sereno</h3>
-              <p>Pao de fermentacao natural, frutas, mel e cafe filtrado.</p>
-              <strong>R$ 29,90</strong>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section-panel gallery-section" id="galeria" aria-labelledby="gallery-title">
-        <div class="section-heading">
-          <p class="eyebrow">Galeria</p>
-          <h2 id="gallery-title">Momentos que combinam com cafe</h2>
-          <p>As imagens se reorganizam com Flexbox: quatro por linha no desktop, duas no tablet e uma no celular.</p>
-        </div>
-
-        <div class="gallery-grid">
-          <figure>
-            <img src="img/gallery-latte.svg" alt="Latte com desenho no leite" />
-            <figcaption>Latte artesanal</figcaption>
-          </figure>
-          <figure>
-            <img src="img/gallery-beans.svg" alt="Graos de cafe torrados" />
-            <figcaption>Graos especiais</figcaption>
-          </figure>
-          <figure>
-            <img src="img/gallery-table.svg" alt="Mesa de cafeteria com xicaras" />
-            <figcaption>Encontros tranquilos</figcaption>
-          </figure>
-          <figure>
-            <img src="img/gallery-dessert.svg" alt="Doce artesanal com frutas" />
-            <figcaption>Doces da vitrine</figcaption>
-          </figure>
-          <figure>
-            <img src="img/gallery-barista.svg" alt="Barista preparando cafe filtrado" />
-            <figcaption>Preparo cuidadoso</figcaption>
-          </figure>
-          <figure>
-            <img src="img/gallery-window.svg" alt="Cantinho com janela e plantas" />
-            <figcaption>Cantinho aconchegante</figcaption>
-          </figure>
-          <figure>
-            <img src="img/gallery-croissant.svg" alt="Croissants em bandeja" />
-            <figcaption>Fornada do dia</figcaption>
-          </figure>
-          <figure>
-            <img src="img/gallery-iced.svg" alt="Cafe gelado com gelo" />
-            <figcaption>Cafes gelados</figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section class="about-section" id="sobre" aria-labelledby="about-title">
-        <div class="about-text">
-          <p class="eyebrow">Sobre nos</p>
-          <h2 id="about-title">Cafe com personalidade e atendimento proximo.</h2>
+          <p class="eyebrow">Seleções participantes</p>
+          <h2 id="teams-title">Camisas que fazem a Copa pulsar</h2>
           <p>
-            A Aurora nasceu para unir cafe de qualidade, comida afetiva e um
-            espaco que convida a desacelerar. Nossa proposta e valorizar
-            produtores locais, ingredientes frescos e experiencias simples,
-            mas memoraveis.
+            Uma galeria de seleções em destaque, com cards que acompanham o
+            ritmo das arquibancadas.
           </p>
         </div>
 
-        <div class="about-list">
-          <div>
-            <strong>+12</strong>
-            <span>opcoes no cardapio</span>
-          </div>
-          <div>
-            <strong>100%</strong>
-            <span>graos selecionados</span>
-          </div>
-          <div>
-            <strong>3</strong>
-            <span>ambientes para aproveitar</span>
-          </div>
+        <div class="team-list">
+          <article class="team-card">
+            <span class="flag flag-br" aria-hidden="true"></span>
+            <div>
+              <h3>Brasil</h3>
+              <p>Tradição, drible e busca por mais uma estrela.</p>
+            </div>
+          </article>
+          <article class="team-card">
+            <span class="flag flag-ar" aria-hidden="true"></span>
+            <div>
+              <h3>Argentina</h3>
+              <p>Intensidade, camisa pesada e toque sul-americano.</p>
+            </div>
+          </article>
+          <article class="team-card">
+            <span class="flag flag-fr" aria-hidden="true"></span>
+            <div>
+              <h3>França</h3>
+              <p>Velocidade, técnica e uma geração competitiva.</p>
+            </div>
+          </article>
+          <article class="team-card">
+            <span class="flag flag-pt" aria-hidden="true"></span>
+            <div>
+              <h3>Portugal</h3>
+              <p>Talento criativo e força no ataque.</p>
+            </div>
+          </article>
+          <article class="team-card">
+            <span class="flag flag-jp" aria-hidden="true"></span>
+            <div>
+              <h3>Japão</h3>
+              <p>Organização, ritmo alto e futebol coletivo.</p>
+            </div>
+          </article>
+          <article class="team-card">
+            <span class="flag flag-ma" aria-hidden="true"></span>
+            <div>
+              <h3>Marrocos</h3>
+              <p>Defesa firme, contra-ataque e muita identidade.</p>
+            </div>
+          </article>
+          <article class="team-card">
+            <span class="flag flag-mx" aria-hidden="true"></span>
+            <div>
+              <h3>México</h3>
+              <p>Casa cheia, energia nas arquibancadas e paixão.</p>
+            </div>
+          </article>
+          <article class="team-card">
+            <span class="flag flag-ca" aria-hidden="true"></span>
+            <div>
+              <h3>Canadá</h3>
+              <p>Velocidade pelos lados e espírito de anfitrião.</p>
+            </div>
+          </article>
         </div>
       </section>
 
-      <section class="section-panel contact-section" id="contato" aria-labelledby="contact-title">
+      <section class="section stars-section" id="craques" aria-labelledby="stars-title">
         <div class="section-heading">
-          <p class="eyebrow">Contato</p>
-          <h2 id="contact-title">Venha tomar um cafe com a gente</h2>
-          <p>Rua das Flores, 128 - Centro | Segunda a sabado, das 08h as 20h.</p>
+          <p class="eyebrow">Destaques de jogadores</p>
+          <h2 id="stars-title">Personagens de uma Copa inesquecível</h2>
         </div>
 
-        <div class="contact-cards">
-          <a href="tel:+5511999990000">Telefone: (11) 99999-0000</a>
-          <a href="mailto:contato@auroracafe.com">contato@auroracafe.com</a>
-          <a href="#inicio">Voltar ao topo</a>
+        <div class="stars-list">
+          <article class="star-card star-one">
+            <span class="shirt-number">10</span>
+            <h3>Maestro do meio</h3>
+            <p>Controla o ritmo, acha passes curtos e longos, e muda o jogo com uma bola enfiada.</p>
+          </article>
+          <article class="star-card star-two">
+            <span class="shirt-number">9</span>
+            <h3>Artilheiro veloz</h3>
+            <p>Ataca o espaço, finaliza de primeira e transforma cruzamentos em gritos da torcida.</p>
+          </article>
+          <article class="star-card star-three">
+            <span class="shirt-number">1</span>
+            <h3>Goleiro muralha</h3>
+            <p>Defende pênaltis, comanda a área e segura o resultado nos minutos finais.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section history-section" id="historia" aria-labelledby="history-title">
+        <div class="section-heading">
+          <p class="eyebrow">Histórico das Copas</p>
+          <h2 id="history-title">Momentos que viraram memória</h2>
+        </div>
+
+        <div class="timeline">
+          <article>
+            <span>1930</span>
+            <h3>Primeira edição</h3>
+            <p>O torneio nasceu no Uruguai e abriu caminho para a competição mais famosa do futebol.</p>
+          </article>
+          <article>
+            <span>1958</span>
+            <h3>Brasil campeão</h3>
+            <p>A seleção brasileira conquistou sua primeira taça e encantou o mundo.</p>
+          </article>
+          <article>
+            <span>1970</span>
+            <h3>Tricampeonato</h3>
+            <p>Uma equipe histórica marcou época com futebol ofensivo e jogadas inesquecíveis.</p>
+          </article>
+          <article>
+            <span>2002</span>
+            <h3>Penta brasileiro</h3>
+            <p>O Brasil voltou ao topo em uma Copa disputada na Coreia do Sul e no Japão.</p>
+          </article>
+          <article>
+            <span>2026</span>
+            <h3>Nova era</h3>
+            <p>A Copa cresce para 48 seleções e será sediada por três países da América do Norte.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section games-section" id="jogos" aria-labelledby="games-title">
+        <div class="section-heading">
+          <p class="eyebrow">Tabela fictícia</p>
+          <h2 id="games-title">Rodada especial da fase de grupos</h2>
+          <p>
+            Jogos criados para a atividade, com visual inspirado em tabelas
+            esportivas e placares de transmissão.
+          </p>
+        </div>
+
+        <div class="match-board" role="list" aria-label="Lista de jogos fictícios">
+          <article class="match-card" role="listitem">
+            <span class="match-date">11 jun</span>
+            <div class="match-teams">
+              <strong>Brasil</strong>
+              <span>20:00</span>
+              <strong>México</strong>
+            </div>
+            <p>Estádio Azteca - Grupo A</p>
+          </article>
+          <article class="match-card" role="listitem">
+            <span class="match-date">14 jun</span>
+            <div class="match-teams">
+              <strong>Argentina</strong>
+              <span>18:00</span>
+              <strong>Japão</strong>
+            </div>
+            <p>Seattle Arena - Grupo B</p>
+          </article>
+          <article class="match-card" role="listitem">
+            <span class="match-date">17 jun</span>
+            <div class="match-teams">
+              <strong>França</strong>
+              <span>21:00</span>
+              <strong>Marrocos</strong>
+            </div>
+            <p>New York New Jersey - Grupo C</p>
+          </article>
+          <article class="match-card" role="listitem">
+            <span class="match-date">20 jun</span>
+            <div class="match-teams">
+              <strong>Portugal</strong>
+              <span>19:30</span>
+              <strong>Canadá</strong>
+            </div>
+            <p>Toronto Stadium - Grupo D</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section fan-section" id="torcida" aria-labelledby="fan-title">
+        <div class="fan-copy">
+          <p class="eyebrow">Experiência da torcida</p>
+          <h2 id="fan-title">A Copa também acontece fora do gramado</h2>
+          <p>
+            Bandeiras, cantos, telões, encontros com amigos e aquela ansiedade
+            antes do apito inicial transformam cada jogo em evento.
+          </p>
+          <a class="button button-primary" href="#inicio">Voltar ao início</a>
+        </div>
+
+        <div class="fan-features" aria-label="Elementos da experiência da torcida">
+          <article>
+            <span class="feature-icon icon-flag" aria-hidden="true"></span>
+            <h3>Bandeiras em movimento</h3>
+            <p>Faixas coloridas dão ritmo ao visual e reforçam o clima internacional.</p>
+          </article>
+          <article>
+            <span class="feature-icon icon-field" aria-hidden="true"></span>
+            <h3>Campo tático</h3>
+            <p>Linhas e marcações lembram a organização dos jogos em uma transmissão.</p>
+          </article>
+          <article>
+            <span class="feature-icon icon-cup" aria-hidden="true"></span>
+            <h3>Troféu dourado</h3>
+            <p>Brilho, vitória e celebração aparecem como fechamento da página.</p>
+          </article>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>&copy; 2026 Aurora Cafe. Site desenvolvido com HTML5, CSS3 e Flexbox.</p>
+      <p>Projeto escolar - Copa Viva 2026.</p>
       <div class="footer-links">
-        <a href="#cardapio">Cardapio</a>
-        <a href="#galeria">Galeria</a>
-        <a href="#contato">Contato</a>
+        <a href="#selecoes">Seleções</a>
+        <a href="#historia">História</a>
+        <a href="#jogos">Jogos</a>
       </div>
     </footer>
   </body>
