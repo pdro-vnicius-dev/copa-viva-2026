@@ -33,3 +33,5 @@ As imagens reais foram baixadas do Wikimedia Commons:
 - MetLife Stadium: `Metlife Stadium, 2013 Soccer International Champions Cup - panoramio.jpg`
 - Torcida brasileira: `Brazil fans at Brazil and North Korea match at FIFA World Cup 2010-06-15 7.JPG`
 - Bandeirinha de campo: `Football corner flag 2017.jpg`
+- Bola animada real: foto `Soccer, Ball field, Ball` do Pixabay
+- Bandeiras oficiais: arquivos SVG do Wikimedia Commons e FlagCDN

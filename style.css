@@ -355,13 +355,8 @@ main {
   border: 4px solid #ffffff;
   border-radius: 50%;
   opacity: 0.84;
-  background:
-    radial-gradient(circle at 50% 50%, #111827 0 16%, transparent 17%),
-    radial-gradient(circle at 20% 28%, #111827 0 9%, transparent 10%),
-    radial-gradient(circle at 79% 30%, #111827 0 9%, transparent 10%),
-    radial-gradient(circle at 29% 79%, #111827 0 9%, transparent 10%),
-    radial-gradient(circle at 76% 74%, #111827 0 9%, transparent 10%),
-    #f8fafc;
+  object-fit: cover;
+  object-position: 72% 63%;
   box-shadow: 0 18px 38px rgba(0, 0, 0, 0.32);
   animation: ball-flight 7s ease-in-out infinite;
 }
@@ -524,74 +519,17 @@ main {
   margin-bottom: 0;
 }
 
-.flag {
-  position: relative;
+.flag-img {
   flex: 0 0 4.5rem;
   width: 4.5rem;
   height: 3.1rem;
-  overflow: hidden;
   border: 1px solid rgba(17, 24, 39, 0.16);
   border-radius: 6px;
+  background: #ffffff;
+  object-fit: cover;
   box-shadow: 0 8px 18px rgba(17, 24, 39, 0.12);
   transform-origin: left center;
   animation: flag-wave 3s ease-in-out infinite;
-}
-
-.flag-br {
-  background: #169b62;
-}
-
-.flag-br::before {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 2.45rem;
-  height: 2.45rem;
-  content: "";
-  background: #ffdf00;
-  transform: translate(-50%, -50%) rotate(45deg);
-}
-
-.flag-br::after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 1.35rem;
-  height: 1.35rem;
-  border-radius: 50%;
-  content: "";
-  background: #002776;
-  transform: translate(-50%, -50%);
-}
-
-.flag-ar {
-  background: linear-gradient(#75aadb 0 33%, #ffffff 33% 66%, #75aadb 66% 100%);
-}
-
-.flag-fr {
-  background: linear-gradient(90deg, #1b3d8f 0 33%, #ffffff 33% 66%, #e33b42 66% 100%);
-}
-
-.flag-pt {
-  background: linear-gradient(90deg, #087a3d 0 42%, #d72630 42% 100%);
-}
-
-.flag-jp {
-  background: radial-gradient(circle, #bc002d 0 29%, #ffffff 30% 100%);
-}
-
-.flag-ma {
-  background:
-    radial-gradient(circle, rgba(0, 101, 73, 0.78) 0 12%, transparent 13%),
-    #c1272d;
-}
-
-.flag-mx {
-  background: linear-gradient(90deg, #006847 0 33%, #ffffff 33% 66%, #ce1126 66% 100%);
-}
-
-.flag-ca {
-  background: linear-gradient(90deg, #d80621 0 25%, #ffffff 25% 75%, #d80621 75% 100%);
 }
 
 .stars-section {
@@ -844,26 +782,31 @@ main {
   background: var(--mist);
 }
 
-.icon-flag::before {
+.real-flag-icon {
+  padding: 0.9rem;
+}
+
+.real-flag-icon::before {
   position: absolute;
-  top: 1rem;
-  left: 1.15rem;
+  top: 0.8rem;
+  left: 0.8rem;
   width: 0.28rem;
-  height: 3.7rem;
+  height: 3.9rem;
   border-radius: 999px;
   content: "";
   background: var(--deep);
 }
 
-.icon-flag::after {
+.real-flag-icon img {
   position: absolute;
   top: 1rem;
-  left: 1.55rem;
-  width: 2.85rem;
-  height: 1.9rem;
+  left: 1.25rem;
+  width: 3.2rem;
+  height: 2.25rem;
+  border: 1px solid rgba(17, 24, 39, 0.14);
   border-radius: 5px;
-  content: "";
-  background: linear-gradient(135deg, var(--green) 0 34%, var(--gold) 34% 66%, var(--red) 66% 100%);
+  object-fit: cover;
+  box-shadow: 0 8px 16px rgba(17, 24, 39, 0.16);
   transform-origin: left center;
   animation: flag-wave 2.4s ease-in-out infinite;
 }
