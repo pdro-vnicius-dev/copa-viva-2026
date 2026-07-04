@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide 03 - Tabelas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="page-header">
+    <h1>Tabelas em HTML</h1>
+    <p>Exemplos com <code>table</code>, <code>tr</code>, <code>th</code>, <code>td</code>, <code>colspan</code> e <code>rowspan</code>.</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Tabela Simples</h2>
+      <table>
+        <tr>
+          <th>Nome</th>
+          <th>Nota</th>
+        </tr>
+        <tr>
+          <td>Fulano</td>
+          <td>8.0</td>
+        </tr>
+        <tr>
+          <td>Beltrano</td>
+          <td>9.5</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>Exemplo com Colspan e Rowspan</h2>
+      <table>
+        <tr>
+          <th rowspan="2">Aluno</th>
+          <th colspan="2">Notas</th>
+        </tr>
+        <tr>
+          <th>1o Bimestre</th>
+          <th>2o Bimestre</th>
+        </tr>
+        <tr>
+          <td>Ana</td>
+          <td>8.5</td>
+          <td>9.0</td>
+        </tr>
+        <tr>
+          <td>Joao</td>
+          <td>7.5</td>
+          <td>8.0</td>
+        </tr>
+      </table>
+      <p><a href="index.html">Voltar para a principal</a></p>
+    </section>
+  </main>
+</body>
+</html>
